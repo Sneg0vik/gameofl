@@ -1,0 +1,14 @@
+﻿<Window x:Class="GameOfL.SaveGames"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfL"
+        mc:Ignorable="d"
+        Title="SaveGames" Height="450" Width="800">
+    <Grid x:Name="Name" Margin="0,0,12,7">
+        <Label x:Name="label" Content="Введите название игры:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="177"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" UndoLimit="50"/>
+        <Button x:Name="buttonSave" Content="Сохранить" HorizontalAlignment="Left" Margin="29,69,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.248,-0.767" Click="buttonSave_Click"/>
+    </Grid>
+</Window>
